@@ -1,0 +1,85 @@
+.login-check {
+    color: #fff;
+    text-align: left;
+}
+
+.login-check label {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.login-check a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#login-form input:disabled {
+    opacity: .5;
+}
+
+#login-form label {
+    color: var(--white);
+}
+
+#login-form .custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: var(--gray);
+    background-color: var(--white);
+}
+
+#login-form .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #1c78c1;
+}
+
+.login-check a:hover {
+    color: #5189b5;
+    cursor: pointer;
+}
+
+.login-info {
+    color: #fff;
+}
+
+.zoner_2fa_list td {
+    vertical-align: middle;
+}
+
+.zoner_2fa_list th,
+.zoner_2fa_list td
+{
+    width: 100%
+}
+
+.zoner_2fa_list th:nth-child(1)
+.zoner_2fa_list td:nth-child(1)
+{
+    text-align: right;
+}
+
+.zoner_2fa_list th:not(:nth-child(2)),
+.zoner_2fa_list td:not(:nth-child(2))
+{
+    width: 1px;
+    white-space: nowrap;
+}
+
+.zoner_2fa_list #list_empty td {
+    text-align: center;
+}
+
+.zoner-2fa-cancel::before {
+    content: "\f00d"!important;
+}
+
+.formbuttons {
+    display: flex!important;
+}
+
+.layout-small .zoner_2fa_list button {
+    font-size: 0;
+}
+
+.layout-small .zoner_2fa_list button::before {
+    font-size: initial;
+    margin-right: 0!important;
+}
+

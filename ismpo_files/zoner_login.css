@@ -1,0 +1,102 @@
+:root {
+    --footer-text-color: #5189b5;
+}
+
+.task-login #layout-content {
+    background-color: #0c5a98 !important;
+}
+
+.task-login .btn-primary {
+    background-color: #1c78c1 !important;
+    border: none !important;
+}
+
+.task-login .btn-primary:hover {
+    background-color: #186cae !important;
+}
+
+#login-footer {
+    color: var(--footer-text-color) !important;
+}
+
+#login-footer a {
+    color: var(--footer-text-color);
+    text-decoration: none;
+}
+
+#login-footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.icon.update_lang:before {
+    font-weight: 900;
+    content: "\f7a2";
+}
+
+#zoner_login_banner {
+    margin: 2.5rem 0 1rem 0;
+}
+
+#show-pass {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    font-family: 'Icons';
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+#show-pass span {
+    padding: .5rem 1rem;
+    line-height: 1;
+    font-size: 1.1rem;
+    font-family: 'Icons';
+    font-style: normal;
+    font-weight: 900;
+    opacity: .4;
+}
+
+#show-pass span:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#show-pass .show::before {
+    content: "\f06e";
+}
+
+#show-pass .hide::before {
+    content: "\f070";
+}
+
+#rcmloginpwd {
+    padding-right: 3.1rem;
+}
+
+/* dark mode overrides, also see plugin JS */
+html.dark-mode body.task-login {
+    color: inherit;
+}
+
+html.dark-mode .task-login .form-control {
+    background-color: var(--white);
+    color: #2c363a;
+    border-color: #ced4da;
+}
+
+html.dark-mode .task-login .form-control:focus:not(.is-invalid) {
+    color: #2c363a!important;
+}
+
+html.dark-mode .task-login .input-group-text {
+    color: #2c363a;
+    background-color: #f1f3f4;
+    border-color: #ced4da;
+}
